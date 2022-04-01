@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './styles'
-import { Grid, Box, Typography } from '@mui/material'
+import { Grid, Box } from '@mui/material'
 import Button from '../Button/Button'
 import Text from '../Text/Text'
 
@@ -15,13 +15,13 @@ function Question({ question, correctAnswer, wrongAnswers, handleClick }) {
     return (
         <Box sx={styles.container}>
             <Box sx={styles.question}>
-                <Text text={question} size="30px" />
+                <Text text={atob(question)} size="30px" />
             </Box>
             <Grid container sx={styles.questions}>
                 {answers.map((q, i) => {
                     return (
                         <Grid item key={i}>
-                            <Button text={q} onClick={handleClick} onClickParams={q} />
+                            <Button text={atob(q)} onClick={handleClick} onClickParams={q} />
                         </Grid>
                     )
                 })}
