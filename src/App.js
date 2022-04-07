@@ -20,7 +20,6 @@ function App() {
   const setSound = (soundEffect, loop) => {
     setCurrentSoundEffect(soundEffect)
     loop ? setMusicLoop(loop) : setMusicLoop(true)
-    console.log(loop)
   }
 
   return (

@@ -29,6 +29,8 @@ function Home({ name, difficulty, setSound, loading, setLoading }) {
                 setScore(0)
                 setLoading(false)
                 setSound(sounds.tick)
+            }).catch(e => {
+                console.log(e)
             })
         }
         getData()

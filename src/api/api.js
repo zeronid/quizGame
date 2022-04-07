@@ -2,7 +2,6 @@ import axios from 'axios'
 
 export const getQuestions = async (difficulty) => {
     let questions = await axios.get("https://opentdb.com/api.php?amount=50&encode=base64")
-    console.log(difficulty)
     switch (difficulty) {
         case 40:
             questions = questions.data.results.filter(item => atob(item.difficulty) === "easy" || atob(item.difficulty) === "medium")
@@ -15,6 +14,5 @@ export const getQuestions = async (difficulty) => {
             questions = questions.data.results
             break
     }
-    console.log(questions)
     return questions
 }

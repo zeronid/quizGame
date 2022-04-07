@@ -15,9 +15,7 @@ const styles = {
         fontSize: 50
     },
     textField: {
-        borderColor: Colors.text,
         width: '30vw',
-        fontSize: 30
     },
     button: {
         backgroundColor: Colors.text,
