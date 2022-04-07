@@ -4,10 +4,9 @@ import styles from './styles'
 import Swing from 'react-reveal/Swing';
 
 
-function Timer({ handleHighScore, setGameOver, restart, difficulty }) {
+function Timer({ handleHighScore, setGameOver, restart, difficulty, timeLeft, setTimeLeft }) {
 
     let interval
-    const [timeLeft, setTimeLeft] = useState(difficulty)
 
     const handleTime = () => {
         if (timeLeft > 0) {

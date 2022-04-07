@@ -86,8 +86,8 @@ function Home({ name, difficulty, setSound, loading, setLoading }) {
                 <Box sx={styles.innerContainer}>
                     <Score score={score} name={name} />
                     <Timer
-                        time={timeLeft}
-                        setTime={setTimeLeft}
+                        timeLeft={timeLeft}
+                        setTimeLeft={setTimeLeft}
                         handleHighScore={handleHighScore}
                         setGameOver={setGameOver}
                         restart={restart}
