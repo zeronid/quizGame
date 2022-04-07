@@ -2,13 +2,13 @@ import { Colors } from '../../theme'
 
 const styles = {
     container: {
-        backgroundColor: Colors.main,
         width: "100vw",
         height: "100vh",
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        gap: 5
     },
     welcomeText: {
         color: Colors.text,
@@ -25,6 +25,15 @@ const styles = {
         marginTop: '20px',
         width: '20vw',
         height: '10vh'
+    },
+    difficulty: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: 2
+    },
+    select: {
+        width: '150px',
+        textAlign: 'center'
     }
 }
 

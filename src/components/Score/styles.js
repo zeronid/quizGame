@@ -1,13 +1,13 @@
 const styles = {
     container: {
         display: "flex",
-        flexDirection: 'column',
+        flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
+        gap: 3,
         position: 'absolute',
-        top: 20,
-        left: 20,
-        gap: 3
+        top: 10,
+        left: 10
     }
 }
 

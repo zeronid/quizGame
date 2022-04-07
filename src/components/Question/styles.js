@@ -12,7 +12,9 @@ const styles = {
         alignItems: "center",
     },
     question: {
-        marginBottom: '50px'
+        marginBottom: '50px',
+        textAlign: "center",
+        margin: '20px'
     },
 }
 

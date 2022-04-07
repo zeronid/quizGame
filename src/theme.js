@@ -9,6 +9,6 @@ export const styles = {
     container: {
         width: "100vw",
         height: "100vh",
-        backgroundColor: Colors.main
+        background: `linear-gradient(to bottom right, ${Colors.blue}, ${Colors.green});`
     }
 }
