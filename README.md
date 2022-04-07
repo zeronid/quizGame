@@ -4,7 +4,7 @@ Includes:
 
 High scores!
 A large pool of questions!
-Different difficultie levels!
+Different difficulty levels!
 Music and... MORE!
 
 You can play the game here:
