@@ -3,7 +3,7 @@ import { Box } from '@mui/material'
 import EnterUsername from './screens/EnterUsername/EnterUsername'
 import Home from './screens/Home/Home'
 import { styles } from './theme'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Sound from "./components/SoundManager/SoundManager";
 import sounds from './components/SoundManager/sounds'
 
